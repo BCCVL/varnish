@@ -1,4 +1,4 @@
-FROM hub.bccvl.org.au/centos/centos7-epel:2016-04-15
+FROM hub.bccvl.org.au/centos/centos7-epel:2016-08-21
 
 RUN yum -y install https://repo.varnish-cache.org/redhat/varnish-4.1.el7.rpm && \
     yum -y install varnish
